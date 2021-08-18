@@ -1,0 +1,1077 @@
+[
+  {
+    "Departamento": "Amazonas",
+    "Vacunados": 42834,
+    "Infectados": 30891,
+    "Fallecidos": 1215,
+    "Latitud": -6.229444,
+    "Longitud": -77.8725,
+    "Vacunados_Mes": {
+      "febrero": 4553,
+      "marzo": 5288,
+      "abril": 5419,
+      "mayo": 17679,
+      "junio": 29244,
+      "julio": 59101,
+      "vac_1": {
+        "febrero": 4552,
+        "marzo": 654,
+        "abril": 5755,
+        "mayo": 18544,
+        "junio": 10048,
+        "julio": 45363
+      },
+      "vac_2": {
+        "febrero": 1,
+        "marzo": 4634,
+        "abril": 796,
+        "mayo": 1226,
+        "junio": 19851,
+        "julio": 13923
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 81,
+      "marzo": 88,
+      "abril": 152,
+      "mayo": 161,
+      "junio": 15,
+      "julio": 4
+    },
+    "infoDep": "El departamento de Amazonas cuya capital es Chachapoyas tiene una población estimada de 426806 según los datos del INEI. Actualmente el departamento tiene un total de 30808 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Amazonas se vio reflejado en junio una disminución de la cantidad de fallecidos con un 58.38% con respecto al número de fallecidos del mes de mayo.",
+    "id": "1"
+  },
+  {
+    "Departamento": "Ancash",
+    "Vacunados": 197660,
+    "Infectados": 751079,
+    "Fallecidos": 6555,
+    "Latitud": -9.5275,
+    "Longitud": -77.5333,
+    "Vacunados_Mes": {
+      "febrero": 9524,
+      "marzo": 17357,
+      "abril": 17613,
+      "mayo": 73929,
+      "junio": 117753,
+      "julio": 220447,
+      "vac_1": {
+        "febrero": 9522,
+        "marzo": 6951,
+        "abril": 11167,
+        "mayo": 58715,
+        "junio": 60934,
+        "julio": 145747
+      },
+      "vac_2": {
+        "febrero": 2,
+        "marzo": 10409,
+        "abril": 7845,
+        "mayo": 15263,
+        "junio": 67323,
+        "julio": 75123
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 420,
+      "marzo": 627,
+      "abril": 1076,
+      "mayo": 785,
+      "junio": 158,
+      "julio": 100
+    },
+    "infoDep": "El departamento de Áncash cuya capital es Huaraz tiene una población estimada de 1180638 según los datos del INEI. Actualmente el departamento tiene un total de 74960 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Áncash se vio reflejado en junio una disminución de la cantidad de fallecidos con un 67.13% con respecto al número de fallecidos del mes de mayo.",
+    "id": "2"
+  },
+  {
+    "Departamento": "Apurimac",
+    "Vacunados": 56029,
+    "Infectados": 25614,
+    "Fallecidos": 1468,
+    "Latitud": -13.6375,
+    "Longitud": -72.8786,
+    "Vacunados_Mes": {
+      "febrero": 6461,
+      "marzo": 7994,
+      "abril": 13086,
+      "mayo": 20229,
+      "junio": 38022,
+      "julio": 66527,
+      "vac_1": {
+        "febrero": 6461,
+        "marzo": 1191,
+        "abril": 13799,
+        "mayo": 18536,
+        "junio": 12224,
+        "julio": 49995
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 6802,
+        "abril": 965,
+        "mayo": 1666,
+        "junio": 27170,
+        "julio": 17077
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 117,
+      "marzo": 149,
+      "abril": 274,
+      "mayo": 288,
+      "junio": 95,
+      "julio": 39
+    },
+    "infoDep": "El departamento de Apurímac cuya capital es Abancay tiene una población estimada de 430736 según los datos del INEI. Actualmente el departamento tiene un total de 25543 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Apurímac se vio reflejado en junio una disminución de la cantidad de fallecidos con un 67.01% con respecto al número de fallecidos del mes de mayo.",
+    "id": "3"
+  },
+  {
+    "Departamento": "Arequipa",
+    "Vacunados": 318679,
+    "Infectados": 111833,
+    "Fallecidos": 9493,
+    "Latitud": -16.39889,
+    "Longitud": -71.5369,
+    "Vacunados_Mes": {
+      "febrero": 15518,
+      "marzo": 34563,
+      "abril": 22963,
+      "mayo": 104331,
+      "junio": 261306,
+      "julio": 251875,
+      "vac_1": {
+        "febrero": 15518,
+        "marzo": 17432,
+        "abril": 10681,
+        "mayo": 87437,
+        "junio": 164922,
+        "julio": 103469
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 17131,
+        "abril": 15416,
+        "mayo": 17037,
+        "junio": 96995,
+        "julio": 154549
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 655,
+      "marzo": 460,
+      "abril": 568,
+      "mayo": 1097,
+      "junio": 1426,
+      "julio": 522
+    },
+    "infoDep": "El departamento de Arequipa cuya capital es Arequipa tiene una población estimada de 1497438 según los datos del INEI. Actualmente el departamento tiene un total de 111276 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Arequipa se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 63.39% con respecto al número de fallecidos del mes de junio.",
+    "id": "4"
+  },
+  {
+    "Departamento": "Ayacucho",
+    "Vacunados": 78354,
+    "Infectados": 32232,
+    "Fallecidos": 2059,
+    "Latitud": -13.1603,
+    "Longitud": -74.2258,
+    "Vacunados_Mes": {
+      "febrero": 7211,
+      "marzo": 8976,
+      "abril": 21467,
+      "mayo": 22789,
+      "junio": 50679,
+      "julio": 65115,
+      "vac_1": {
+        "febrero": 7211,
+        "marzo": 1443,
+        "abril": 24938,
+        "mayo": 21454,
+        "junio": 14271,
+        "julio": 39860
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 7533,
+        "abril": 1784,
+        "mayo": 1335,
+        "junio": 37042,
+        "julio": 25540
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 187,
+      "marzo": 295,
+      "abril": 241,
+      "mayo": 241,
+      "junio": 116,
+      "julio": 61
+    },
+    "infoDep": "El departamento de Ayacucho cuya capital es Ayacucho tiene una población estimada de 668213 según los datos del INEI. Actualmente el departamento tiene un total de 32072 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Áncash se vio reflejado en junio una disminución de la cantidad de fallecidos con un 67.313% con respecto al número de muertes del mes de mayo.",
+    "id": "5"
+  },
+  {
+    "Departamento": "Cajamarca",
+    "Vacunados": 181731,
+    "Infectados": 64233,
+    "Fallecidos": 4030,
+    "Latitud": -7.15639,
+    "Longitud": -78.5156,
+    "Vacunados_Mes": {
+      "febrero": 9705,
+      "marzo": 14477,
+      "abril": 6847,
+      "mayo": 61844,
+      "junio": 114735,
+      "julio": 189535,
+      "vac_1": {
+        "febrero": 9705,
+        "marzo": 3138,
+        "abril": 6400,
+        "mayo": 52036,
+        "junio": 48066,
+        "julio": 121199
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 11338,
+        "abril": 3025,
+        "mayo": 9808,
+        "junio": 65761,
+        "julio": 68839
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 258,
+      "marzo": 431,
+      "abril": 736,
+      "mayo": 553,
+      "junio": 165,
+      "julio": 106
+    },
+    "infoDep": "El departamento de Cajamarca cuya capital es Cajamarca tiene una población estimada de 1453711 según los datos del INEI. Actualmente el departamento tiene un total de 64101 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Cajamarca se vio reflejado en junio una disminución de la cantidad de fallecidos con un 70.16% con respecto al número de muertes del mes de mayo.",
+    "id": "6"
+  },
+  {
+    "Departamento": "Callao",
+    "Vacunados": 321278,
+    "Infectados": 98806,
+    "Fallecidos": 9848,
+    "Latitud": -12.0542,
+    "Longitud": -77.1289,
+    "Vacunados_Mes": {
+      "febrero": 16112,
+      "marzo": 66639,
+      "abril": 52609,
+      "mayo": 123436,
+      "junio": 141178,
+      "julio": 296160,
+      "vac_1": {
+        "febrero": 16092,
+        "marzo": 41545,
+        "abril": 25483,
+        "mayo": 78026,
+        "junio": 76566,
+        "julio": 171093
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 25058,
+        "abril": 32454,
+        "mayo": 45412,
+        "junio": 70817,
+        "julio": 125673
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 1070,
+      "marzo": 1125,
+      "abril": 1015,
+      "mayo": 571,
+      "junio": 217,
+      "julio": 95
+    },
+    "infoDep": "El departamento de Callao cuya capital es Callao tiene una población estimada de 1129854 según los datos del INEI. Actualmente el departamento tiene un total de 98597 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Callao se vio reflejado en junio una disminución de la cantidad de fallecidos con un 61.99% con respecto al número de fallecidos del mes de mayo.",
+    "id": "7"
+  },
+  {
+    "Departamento": "Cuzco",
+    "Vacunados": 178863,
+    "Infectados": 71140,
+    "Fallecidos": 4633,
+    "Latitud": -13.5167,
+    "Longitud": -71.9789,
+    "Vacunados_Mes": {
+      "febrero": 10823,
+      "marzo": 14055,
+      "abril": 10796,
+      "mayo": 76279,
+      "junio": 135267,
+      "julio": 228750,
+      "vac_1": {
+        "febrero": 10822,
+        "marzo": 2628,
+        "abril": 9977,
+        "mayo": 58158,
+        "junio": 62459,
+        "julio": 167034
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 11427,
+        "abril": 2562,
+        "mayo": 18095,
+        "junio": 69962,
+        "julio": 91731
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 470,
+      "marzo": 569,
+      "abril": 702,
+      "mayo": 631,
+      "junio": 298,
+      "julio": 138
+    },
+    "infoDep": "El departamento de Cusco cuya capital es Cusco tiene una población estimada de 1357075 según los datos del INEI. Actualmente el departamento tiene un total de 70893 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Cusco se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 53.69% con respecto al número de fallecidos del mes de junio",
+    "id": "8"
+  },
+  {
+    "Departamento": "Huancavelica",
+    "Vacunados": 15695,
+    "Infectados": 15750,
+    "Fallecidos": 1131,
+    "Latitud": -12.7869,
+    "Longitud": -74.9731,
+    "Vacunados_Mes": {
+      "febrero": 4976,
+      "marzo": 5904,
+      "abril": 12833,
+      "mayo": 14620,
+      "junio": 32583,
+      "julio": 55028,
+      "vac_1": {
+        "febrero": 4972,
+        "marzo": 768,
+        "abril": 15343,
+        "mayo": 13106,
+        "junio": 7984,
+        "julio": 46043
+      },
+      "vac_2": {
+        "febrero": 4,
+        "marzo": 5136,
+        "abril": 758,
+        "mayo": 1515,
+        "junio": 24750,
+        "julio": 9078
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 147,
+      "marzo": 135,
+      "abril": 184,
+      "mayo": 132,
+      "junio": 46,
+      "julio": 24
+    },
+    "infoDep": "El departamento de Huancavelica cuya capital es Huancavelica tiene una población estimada de 365317 según los datos del INEI. Actualmente el departamento tiene un total de 15695 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Huancavelica se vio reflejado en junio una disminución de la cantidad de fallecidos con un 65.15% con respecto al número de fallecidos del mes de mayo..",
+    "id": "9"
+  },
+  {
+    "Departamento": "Huanuco",
+    "Vacunados": 62297,
+    "Infectados": 34901,
+    "Fallecidos": 2654,
+    "Latitud": -9.92944,
+    "Longitud": -76.2397,
+    "Vacunados_Mes": {
+      "febrero": 7599,
+      "marzo": 9204,
+      "abril": 7698,
+      "mayo": 37178,
+      "junio": 45006,
+      "julio": 69081,
+      "vac_1": {
+        "febrero": 7598,
+        "marzo": 1241,
+        "abril": 11904,
+        "mayo": 35528,
+        "junio": 7434,
+        "julio": 58303
+      },
+      "vac_2": {
+        "febrero": 1,
+        "marzo": 7979,
+        "abril": 1449,
+        "mayo": 1649,
+        "junio": 38994,
+        "julio": 11331
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 315,
+      "marzo": 156,
+      "abril": 216,
+      "mayo": 260,
+      "junio": 155,
+      "julio": 47
+    },
+    "infoDep": "El departamento de Huánuco cuya capital es Huánuco tiene una población estimada de 760267 según los datos del INEI. Actualmente el departamento tiene un total de 34806 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Huánuco se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 69.67% con respecto al número de fallecidos del mes de junio.",
+    "id": "10"
+  },
+  {
+    "Departamento": "Ica",
+    "Vacunados": 140622,
+    "Infectados": 56976,
+    "Fallecidos": 8185,
+    "Latitud": -14.0639,
+    "Longitud": -75.7292,
+    "Vacunados_Mes": {
+      "febrero": 9303,
+      "marzo": 13509,
+      "abril": 16314,
+      "mayo": 90085,
+      "junio": 84849,
+      "julio": 120946,
+      "vac_1": {
+        "febrero": 9303,
+        "marzo": 3880,
+        "abril": 9610,
+        "mayo": 73853,
+        "junio": 22259,
+        "julio": 95822
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 9626,
+        "abril": 8515,
+        "mayo": 16230,
+        "junio": 65604,
+        "julio": 25655
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 978,
+      "marzo": 735,
+      "abril": 865,
+      "mayo": 794,
+      "junio": 384,
+      "julio": 194
+    },
+    "infoDep": "El departamento de Ica cuya capital es Ica tiene una población estimada de 975182 según los datos del INEI. Actualmente el departamento tiene un total de 56791 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Ica se vio reflejado en junio una disminución de la cantidad de fallecidos con un 51.63% con respecto al número de fallecidos del mes de mayo.",
+    "id": "11"
+  },
+  {
+    "Departamento": "Junin",
+    "Vacunados": 234794,
+    "Infectados": 82461,
+    "Fallecidos": 6876,
+    "Latitud": -12.0681,
+    "Longitud": -75.2106,
+    "Vacunados_Mes": {
+      "febrero": 12345,
+      "marzo": 18237,
+      "abril": 8443,
+      "mayo": 79734,
+      "junio": 186881,
+      "julio": 261124,
+      "vac_1": {
+        "febrero": 12344,
+        "marzo": 4503,
+        "abril": 4249,
+        "mayo": 73853,
+        "junio": 100296,
+        "julio": 178996
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 13734,
+        "abril": 4358,
+        "mayo": 16230,
+        "junio": 84691,
+        "julio": 83007
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 851,
+      "marzo": 595,
+      "abril": 815,
+      "mayo": 958,
+      "junio": 534,
+      "julio": 156
+    },
+    "infoDep": "El departamento de Junín cuya capital es Huancayo tiene una población estimada de 1361467 según los datos del INEI. Actualmente el departamento tiene un total de 82091 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Junín se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 70.78% con respecto al número de fallecidos del mes de junio.",
+    "id": "12"
+  },
+  {
+    "Departamento": "La Libertad",
+    "Vacunados": 301293,
+    "Infectados": 85951,
+    "Fallecidos": 10044,
+    "Latitud": -8.11167,
+    "Longitud": -79.0286,
+    "Vacunados_Mes": {
+      "febrero": 15127,
+      "marzo": 29733,
+      "abril": 22784,
+      "mayo": 186231,
+      "junio": 190135,
+      "julio": 223137,
+      "vac_1": {
+        "febrero": 15127,
+        "marzo": 13259,
+        "abril": 14022,
+        "mayo": 158813,
+        "junio": 48481,
+        "julio": 150841
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 16474,
+        "abril": 11398,
+        "mayo": 27410,
+        "junio": 142453,
+        "julio": 74686
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 662,
+      "marzo": 970,
+      "abril": 1496,
+      "mayo": 1106,
+      "junio": 382,
+      "julio": 106
+    },
+    "infoDep": "El departamento de La Libertad cuya capital es Trujillo tiene una población estimada de 2016771 según los datos del INEI. Actualmente el departamento tiene un total de 85802 infectados por Covid-19.",
+    "analisisDep": "En el departamento de La Libertad se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 72.25% con respecto al número de fallecidos del mes de junio.",
+    "id": "13"
+  },
+  {
+    "Departamento": "Lambayeque",
+    "Vacunados": 194906,
+    "Infectados": 60169,
+    "Fallecidos": 8496,
+    "Latitud": -6.77361,
+    "Longitud": -79.84,
+    "Vacunados_Mes": {
+      "febrero": 11543,
+      "marzo": 14695,
+      "abril": 11589,
+      "mayo": 115442,
+      "junio": 142908,
+      "julio": 157067,
+      "vac_1": {
+        "febrero": 11542,
+        "marzo": 2461,
+        "abril": 11189,
+        "mayo": 94812,
+        "junio": 47085,
+        "julio": 101071
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 12234,
+        "abril": 1762,
+        "mayo": 21261,
+        "junio": 8804,
+        "julio": 57692
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 460,
+      "marzo": 637,
+      "abril": 1104,
+      "mayo": 887,
+      "junio": 284,
+      "julio": 97
+    },
+    "infoDep": "El departamento de Lambayeque cuya capital es Chiclayo tiene una población estimada de 1310785 según los datos del INEI. Actualmente el departamento tiene un total de 60013 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Lambayeque se vio reflejado en junio una disminución de la cantidad de fallecidos con un 67.98% con respecto al número de fallecidos del mes de mayo.",
+    "id": "14"
+  },
+  {
+    "Departamento": "Lima",
+    "Vacunados": 3049901,
+    "Infectados": 929028,
+    "Fallecidos": 87629,
+    "Latitud": -11.1072,
+    "Longitud": -77.6103,
+    "Vacunados_Mes": {
+      "febrero": 123682,
+      "marzo": 373674,
+      "abril": 365479,
+      "mayo": 1141206,
+      "junio": 1243042,
+      "julio": 2672297,
+      "vac_1": {
+        "febrero": 123673,
+        "marzo": 213667,
+        "abril": 230209,
+        "mayo": 664657,
+        "junio": 630896,
+        "julio": 1481711
+      },
+      "vac_2": {
+        "febrero": 12,
+        "marzo": 1600289,
+        "abril": 189332,
+        "mayo": 386378,
+        "junio": 660279,
+        "julio": 1042839
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 9661,
+      "marzo": 11358,
+      "abril": 10532,
+      "mayo": 5831,
+      "junio": 2055,
+      "julio": 937
+    },
+    "infoDep": "El departamento de Lima cuya capital es Huacho tiene una población estimada de 10628470 según los datos del INEI. Actualmente el departamento tiene un total de 69781 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Lima se vio reflejado en junio una disminución de la cantidad de fallecidos con un 64.75% con respecto al número de fallecidos del mes de mayo.",
+    "id": "15"
+  },
+  {
+    "Departamento": "Loreto",
+    "Vacunados": 91132,
+    "Infectados": 44520,
+    "Fallecidos": 4137,
+    "Latitud": -3.75,
+    "Longitud": -73.2444,
+    "Vacunados_Mes": {
+      "febrero": 7001,
+      "marzo": 15730,
+      "abril": 12030,
+      "mayo": 43430,
+      "junio": 36217,
+      "julio": 116097,
+      "vac_1": {
+        "febrero": 7000,
+        "marzo": 8859,
+        "abril": 4032,
+        "mayo": 34231,
+        "junio": 9707,
+        "julio": 83487
+      },
+      "vac_2": {
+        "febrero": 1,
+        "marzo": 6891,
+        "abril": 8473,
+        "mayo": 9661,
+        "junio": 27564,
+        "julio": 32989
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 512,
+      "marzo": 380,
+      "abril": 148,
+      "mayo": 84,
+      "junio": 63,
+      "julio": 102
+    },
+    "infoDep": "El departamento de Loreto cuya capital es Iquitos tiene una población estimada de 1027559 según los datos del INEI. Actualmente el departamento tiene un total de 44394 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Loreto se vio reflejado en junio una disminución de la cantidad de fallecidos con un 25% con respecto al número de fallecidos del mes de mayo.",
+    "id": "16"
+  },
+  {
+    "Departamento": "Madre de Dios",
+    "Vacunados": 13766,
+    "Infectados": 13708,
+    "Fallecidos": 753,
+    "Latitud": -12.59331,
+    "Longitud": -69.18913,
+    "Vacunados_Mes": {
+      "febrero": 1675,
+      "marzo": 2346,
+      "abril": 2712,
+      "mayo": 3555,
+      "junio": 9648,
+      "julio": 12451,
+      "vac_1": {
+        "febrero": 1675,
+        "marzo": 507,
+        "abril": 2845,
+        "mayo": 2661,
+        "junio": 6388,
+        "julio": 6885
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 1839,
+        "abril": 476,
+        "mayo": 894,
+        "junio": 3716,
+        "julio": 5634
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 25,
+      "marzo": 90,
+      "abril": 100,
+      "mayo": 31,
+      "junio": 12,
+      "julio": 11
+    },
+    "infoDep": "El departamento de Madre de Dios cuya capital es Puerto Maldonado tiene una población estimada de 173811 según los datos del INEI. Actualmente el departamento tiene un total de 13692 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Madre de Dios se vio reflejado en junio una disminución de la cantidad de fallecidos con un 61.29% con respecto al número de fallecidos del mes de mayo.",
+    "id": "17"
+  },
+  {
+    "Departamento": "Moquegua",
+    "Vacunados": 40326,
+    "Infectados": 28757,
+    "Fallecidos": 1468,
+    "Latitud": -17.1953,
+    "Longitud": -70.9372,
+    "Vacunados_Mes": {
+      "febrero": 3569,
+      "marzo": 4231,
+      "abril": 2609,
+      "mayo": 20111,
+      "junio": 21047,
+      "julio": 41159,
+      "vac_1": {
+        "febrero": 3569,
+        "marzo": 529,
+        "abril": 2309,
+        "mayo": 18070,
+        "junio": 3693,
+        "julio": 26271
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 3702,
+        "abril": 522,
+        "mayo": 2041,
+        "junio": 17419,
+        "julio": 14910
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 70,
+      "marzo": 42,
+      "abril": 61,
+      "mayo": 119,
+      "junio": 79,
+      "julio": 61
+    },
+    "infoDep": "El departamento de Moquegua cuya capital es Moquegua tiene una población estimada de 192740 según los datos del INEI. Actualmente el departamento tiene un total de 28549 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Moquegua se vio reflejado en junio una disminución de la cantidad de fallecidos con un 33.61% con respecto al número de fallecidos del mes de mayo.",
+    "id": "18"
+  },
+  {
+    "Departamento": "Pasco",
+    "Vacunados": 32862,
+    "Infectados": 15315,
+    "Fallecidos": 1022,
+    "Latitud": -10.66748,
+    "Longitud": -76.25668,
+    "Vacunados_Mes": {
+      "febrero": 3012,
+      "marzo": 3752,
+      "abril": 3831,
+      "mayo": 10763,
+      "junio": 29244,
+      "julio": 51531,
+      "vac_1": {
+        "febrero": 3008,
+        "marzo": 512,
+        "abril": 4176,
+        "mayo": 9886,
+        "junio": 10083,
+        "julio": 38598
+      },
+      "vac_2": {
+        "febrero": 3,
+        "marzo": 3240,
+        "abril": 360,
+        "mayo": 869,
+        "junio": 12161,
+        "julio": 12982
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 107,
+      "marzo": 89,
+      "abril": 119,
+      "mayo": 140,
+      "junio": 65,
+      "julio": 29
+    },
+    "infoDep": "El departamento de Pasco cuya capital es Cerro de Pasco tiene una población estimada de 271904 según los datos del INEI. Actualmente el departamento tiene un total de 15255 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Pasco se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 55.38% con respecto al número de fallecidos del mes de junio.",
+    "id": "19"
+  },
+  {
+    "Departamento": "Piura",
+    "Vacunados": 224079,
+    "Infectados": 84924,
+    "Fallecidos": 11763,
+    "Latitud": -5.19722,
+    "Longitud": -80.6267,
+    "Vacunados_Mes": {
+      "febrero": 14058,
+      "marzo": 17449,
+      "abril": 21131,
+      "mayo": 99301,
+      "junio": 169498,
+      "julio": 221689,
+      "vac_1": {
+        "febrero": 14055,
+        "marzo": 3179,
+        "abril": 16584,
+        "mayo": 76772,
+        "junio": 78204,
+        "julio": 157622
+      },
+      "vac_2": {
+        "febrero": 1,
+        "marzo": 14285,
+        "abril": 6173,
+        "mayo": 22745,
+        "junio": 97355,
+        "julio": 68863
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 518,
+      "marzo": 965,
+      "abril": 1714,
+      "mayo": 1112,
+      "junio": 421,
+      "julio": 162
+    },
+    "infoDep": "El departamento de Piura cuya capital es Piura tiene una población estimada de 2047954 según los datos del INEI. Actualmente el departamento tiene un total de 84755 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Piura se vio reflejado en junio una disminución de la cantidad de fallecidos con un 62.14% con respecto al número de fallecidos del mes de mayo.",
+    "id": "20"
+  },
+  {
+    "Departamento": "Puno",
+    "Vacunados": 88156,
+    "Infectados": 37654,
+    "Fallecidos": 3948,
+    "Latitud": -15.8406,
+    "Longitud": -70.0281,
+    "Vacunados_Mes": {
+      "febrero": 8744,
+      "marzo": 10264,
+      "abril": 9931,
+      "mayo": 47525,
+      "junio": 73851,
+      "julio": 53930,
+      "vac_1": {
+        "febrero": 8744,
+        "marzo": 1648,
+        "abril": 8540,
+        "mayo": 42169,
+        "junio": 37632,
+        "julio": 20915
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 8616,
+        "abril": 2698,
+        "mayo": 5355,
+        "junio": 37082,
+        "julio": 33426
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 450,
+      "marzo": 304,
+      "abril": 346,
+      "mayo": 510,
+      "junio": 371,
+      "julio": 197
+    },
+    "infoDep": "El departamento de Puno cuya capital es Puno tiene una población estimada de 1237997 según los datos del INEI. Actualmente el departamento tiene un total de 37388 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Puno se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 46.9% con respecto al número de fallecidos del mes de junio.",
+    "id": "21"
+  },
+  {
+    "Departamento": "San Martin",
+    "Vacunados": 95078,
+    "Infectados": 47755,
+    "Fallecidos": 2931,
+    "Latitud": -76.9747,
+    "Longitud": 32,
+    "Vacunados_Mes": {
+      "febrero": 7989,
+      "marzo": 14545,
+      "abril": 7444,
+      "mayo": 46242,
+      "junio": 56276,
+      "julio": 115006,
+      "vac_1": {
+        "febrero": 7989,
+        "marzo": 5985,
+        "abril": 3358,
+        "mayo": 40126,
+        "junio": 21583,
+        "julio": 90476
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 8560,
+        "abril": 4609,
+        "mayo": 6116,
+        "junio": 35482,
+        "julio": 24620
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 107,
+      "marzo": 242,
+      "abril": 425,
+      "mayo": 315,
+      "junio": 121,
+      "julio": 71
+    },
+    "infoDep": "El departamento de San Martín cuya capital es Moyobamba tiene una población estimada de 899648 según los datos del INEI. Actualmente el departamento tiene un total de 47630 infectados por Covid-19.",
+    "analisisDep": "En el departamento de San Martín se vio reflejado en junio una disminución de la cantidad de fallecidos con un 61.58% con respecto al número de fallecidos del mes de mayo.",
+    "id": "22"
+  },
+  {
+    "Departamento": "Tacna",
+    "Vacunados": 90597,
+    "Infectados": 29303,
+    "Fallecidos": 1932,
+    "Latitud": -18.0136,
+    "Longitud": -70.2506,
+    "Vacunados_Mes": {
+      "febrero": 4312,
+      "marzo": 5190,
+      "abril": 5070,
+      "mayo": 38919,
+      "junio": 66269,
+      "julio": 103397,
+      "vac_1": {
+        "febrero": 4308,
+        "marzo": 669,
+        "abril": 4295,
+        "mayo": 32277,
+        "junio": 31339,
+        "julio": 72949
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 4521,
+        "abril": 904,
+        "mayo": 6642,
+        "junio": 35336,
+        "julio": 30463
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 325,
+      "marzo": 170,
+      "abril": 100,
+      "mayo": 154,
+      "junio": 136,
+      "julio": 69
+    },
+    "infoDep": "El departamento de Tacna cuya capital es Tacna tiene una población estimada de 370974 según los datos del INEI. Actualmente el departamento tiene un total de 29194 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Tacna se vio reflejado en Julio una disminución de la cantidad de fallecidos con un 49.26% con respecto al número de fallecidos del mes de junio.",
+    "id": "23"
+  },
+  {
+    "Departamento": "Tumbes",
+    "Vacunados": 28287,
+    "Infectados": 18016,
+    "Fallecidos": 1541,
+    "Latitud": -3.56472,
+    "Longitud": -80.4539,
+    "Vacunados_Mes": {
+      "febrero": 2737,
+      "marzo": 5174,
+      "abril": 5536,
+      "mayo": 9593,
+      "junio": 20294,
+      "julio": 32171,
+      "vac_1": {
+        "febrero": 2737,
+        "marzo": 2507,
+        "abril": 5028,
+        "mayo": 8259,
+        "junio": 10108,
+        "julio": 21076
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 2769,
+        "abril": 2001,
+        "mayo": 1334,
+        "junio": 10750,
+        "julio": 11258
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 102,
+      "marzo": 198,
+      "abril": 214,
+      "mayo": 124,
+      "junio": 50,
+      "julio": 21
+    },
+    "infoDep": "El departamento de Tumbes cuya capital es Tumbes tiene una población estimada de 251521 según los datos del INEI. Actualmente el departamento tiene un total de 17988 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Tumbes se vio reflejado en junio una disminución de la cantidad de fallecidos con un 59.67% con respecto al número de fallecidos del mes de mayo.",
+    "id": "24"
+  },
+  {
+    "Departamento": "Ucayali",
+    "Vacunados": 39888,
+    "Infectados": 31918,
+    "Fallecidos": 3052,
+    "Latitud": -8.37915,
+    "Longitud": -74.55387,
+    "Vacunados_Mes": {
+      "febrero": 4287,
+      "marzo": 5986,
+      "abril": 10174,
+      "mayo": 16182,
+      "junio": 27715,
+      "julio": 53490,
+      "vac_1": {
+        "febrero": 4287,
+        "marzo": 1571,
+        "abril": 9950,
+        "mayo": 14265,
+        "junio": 7784,
+        "julio": 44809
+      },
+      "vac_2": {
+        "febrero": 0,
+        "marzo": 4415,
+        "abril": 1295,
+        "mayo": 1917,
+        "junio": 20264,
+        "julio": 8992
+      }
+    },
+    "Fallecidos_Mes": {
+      "febrero": 195,
+      "marzo": 393,
+      "abril": 476,
+      "mayo": 208,
+      "junio": 73,
+      "julio": 31
+    },
+    "infoDep": "El departamento de Ucayali cuya capital es Pucallpa tiene una población estimada de 589110 según los datos del INEI. Actualmente el departamento tiene un total de 31902 infectados por Covid-19.",
+    "analisisDep": "En el departamento de Ucayali se vio reflejado en junio una disminución de la cantidad de fallecidos con un 64.9% con respecto al número de fallecidos del mes de mayo.",
+    "id": "25"
+  }
+]

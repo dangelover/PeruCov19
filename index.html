@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="./resources/ol.css">
+    <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/ol3-search-layer.min.css">
+    <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+    <link rel="stylesheet" href="./resources/qgis2web.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"
+        integrity="sha512-asxKqQghC1oBShyhiBwA+YgotaSYKxGP1rcSYTDrB0U6DxwlJjU59B67U8+5/++uFjcuVM8Hh5cokLjZlhm3Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .search-layer {
+            top: 65px;
+            left: .5em;
+        }
+
+        .ol-touch .search-layer {
+            top: 80px;
+        }
+    </style>
+    <style>
+        html,
+        body {
+            background-color: rgb(15, 201, 191);
+        }
+
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+
+        .ol-zoom,
+        .geolocate,
+        .gcd-gl-control .ol-control {
+            background-color: rgba(255, 255, 255, .4) !important;
+            padding: 3px !important;
+        }
+
+        .ol-scale-line {
+            background: none !important;
+        }
+
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+    </style>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            padding: 0;
+            margin: 0;
+            height: 500px;
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+        }
+
+        .container {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        .titulo {
+            text-align: center;
+        }
+
+        .header {
+            background-color: #0feee3 !important;
+        }
+        #canvasDep{
+            justify-content: center;
+            margin: auto;
+        }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Info</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <h2 class="mr-auto">PeruCov</h2>
+                    <span class="navbar-text">
+                        <img src="images/coronavirus_GRA.png" width="100" height="100" alt="" srcset="">
+                    </span>
+                </div>
+            </nav>
+        </div>
+
+        <div class="titulo">
+            <p>El aplicativo web Perucov pretende mostrar la importancia de vacunarse a traves de datos y graficos acerca de los infectados, muertes y vacunados en el Peru para incentivar a las personas en la decision de dirigirse al centro mas cercano de vacunacion para no ser afectados ante una nueva variante, no generar una tercera ola y volver lo antes posible a nuestras vidas antes de la aparicion del COVID-19.</p>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <div id="map">
+                        <div id="popup" class="ol-popup">
+                            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                            <div id="popup-content"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Informacion general</h5>
+                        <select name="datos" id="datos">
+                            <option value="1">Infectados</option>
+                            <option value="2">Vacunados</option>
+                            <option value="3">Fallecidos</option>
+                        </select>
+                        <button
+                            type="button"
+                            class="btn btn-success"
+                            data-dismiss="modal"
+                            id="verDatos"
+                        >
+                            Ver informacion
+                        </button>
+                        <button type="button" style="display: none;" id="verAnalisis" data-toggle="modal" data-target="#exampleModal">
+                            Ver Analisis
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">ANALISIS DE FALLECIDOS</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div id="analisis">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <p class="card-text">
+                        <div id="datosContent">
+                            <canvas id="graficaLinea"></canvas>
+                        </div>
+                        </p>
+                        <div id="analisis">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Ranking</h5>
+                    <select name="datos" id="datosRanking">
+                        <option value="1">Infectados</option>
+                        <option value="2">Vacunados</option>
+                        <option value="3">Fallecidos</option>
+                    </select>
+                    <button type="button" class="btn btn-success" data-dismiss="modal" id="verRanking">
+                        Ver Ranking
+                    </button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal" id="verRatio">
+                        Ver mas informacion
+                    </button>
+                    <p class="card-text">
+                        <canvas id="graficaBarras"></canvas>
+                    </p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <h2>Informacion por departamentos</h2>
+                    <br>
+                    <div class="col-md-8" id="card-departamentos">
+                        <select name="dias" id="regiones" size="1">
+                            <option value="1">AMAZONAS</option>
+                            <option value="2">ANCASH</option>
+                            <option value="3">APURIMAC</option>
+                            <option value="4">AREQUIPA</option>
+                            <option value="5">AYACUCHO</option>
+                            <option value="6">CAJAMARCA</option>
+                            <option value="7">CALLAO</option>
+                            <option value="8">CUSCO</option>
+                            <option value="9">HUANCAVELICA</option>
+                            <option value="10">HUANUCO</option>
+                            <option value="11">ICA</option>
+                            <option value="12">JUNIN</option>
+                            <option value="13">LA LIBERTAD</option>
+                            <option value="14">LAMBAYEQUE</option>
+                            <option value="15">LIMA</option>
+                            <option value="16">LORETO</option>
+                            <option value="17">MADRE DE DIOS</option>
+                            <option value="18">MOQUEGUA</option>
+                            <option value="19">PASCO</option>
+                            <option value="20">PIURA</option>
+                            <option value="21">PUNO</option>
+                            <option value="22">SAN MARTIN</option>
+                            <option value="23">TACNA</option>
+                            <option value="24">TUMBES</option>
+                            <option value="25">UCAYALI</option>
+                        </select>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="verDepartamento">
+                            Ver informacion
+                        </button>
+                        <p class="card-text">
+                            <div id="departamentos"></div>
+                        </p>
+                        <p class="card-text">
+                            <canvas id="canvasVacunateDepartamentos" style="display: none;"></canvas>
+                        </p>
+                        <p class="card-text">
+                            <canvas id="canvasDeathDepartamentos" style="display: none; ;"></canvas>
+                        </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="resources/qgis2web_expressions.js"></script>
+    <script src="resources/polyfills.js"></script>
+    <script src="./resources/functions.js"></script>
+    <script src="./resources/ol.js"></script>
+    <script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=Element.prototype.classList,URL"></script>
+    <script src="resources/horsey.min.js"></script>
+    <script src="resources/ol3-search-layer.js"></script>
+    <script src="./resources/ol-layerswitcher.js"></script>
+    <script src="layers/Casospositivospordepartamentos_0.js"></script>
+    <script src="layers/Vacunadospordepartamentos_1.js"></script>
+    <script src="layers/Fallecidospordepartamentos_2.js"></script>
+    <script src="styles/Casospositivospordepartamentos_0_style.js"></script>
+    <script src="styles/Vacunadospordepartamentos_1_style.js"></script>
+    <script src="styles/Fallecidospordepartamentos_2_style.js"></script>
+    <script src="./layers/layers.js" type="text/javascript"></script>
+    <script src="./resources/Autolinker.min.js"></script>
+    <script src="./resources/qgis2web.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
