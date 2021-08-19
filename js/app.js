@@ -337,7 +337,7 @@ function mostrarHTML(datos) {
       html += `
         <div class="card-body">
           <h5 class="card-title">${info.Departamento}</h5>
-          <table class="table">
+          <table class="table table-warning table-sm">
             <thead>
               <tr> 
               <th scope="col">Mes</th>
