@@ -31,7 +31,12 @@
     <style>
         html,
         body {
-            background-color: rgb(15, 201, 191);
+            background-image: url(../images/covid19.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 100vw;
+            height: 100%;
         }
 
         .ol-control button {
@@ -81,34 +86,81 @@
         }
 
         .titulo {
-            text-align: center;
+            text-align: left;
+            font-size: 16px;
+            margin: 20px 0px;
         }
 
         .header {
-            background-color: #0feee3 !important;
+            background-color:gold !important;
+            
         }
         #canvasDep{
             justify-content: center;
             margin: auto;
         }
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .title__phrase{
+            color:darkblue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .valores{
+            margin-right: 20px;
+            outline: none;
+            width: 15%;
+            background: transparent;
+            border: none;
+            font-size: 14px;
+            height: 30px;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .cpp {
+            background-color:indigo;
+        }
+        .button__analisis{
+            margin-left: 10px ;
+            outline: none;
+            cursor: pointer;
+            background-color: lightseagreen;
+            color: white;
+            border: none;
+            height: 31px;
+            width: 99px;
+            display: none; 
+        }
+
     </style>
-    <title></title>
+    <title>PERUCOV</title>
 </head>
 
 <body>
     <div class="container">
         <div class="header">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Info</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <h2 class="mr-auto">PeruCov</h2>
-                    <span class="navbar-text">
-                        <img src="images/coronavirus_GRA.png" width="100" height="100" alt="" srcset="">
-                    </span>
+                <div  class="title"  id="navbarText">
+                <img src="images/doctor.png" width="100" height="100" alt="" srcset="">
+                <div class="title__phrase">
+                    <h1 class="">PERUCOV</h1>
+                    <p>"Estar informado es importante"</p>
+                </div>
+                <img src="images/coronavirus_GRA.png" width="100" height="100" alt="" srcset="">
+                  
                 </div>
             </nav>
         </div>
@@ -129,7 +181,7 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Informacion general</h5>
-                        <select name="datos" id="datos">
+                        <select class="valores" name="datos" id="datos">
                             <option value="1">Infectados</option>
                             <option value="2">Vacunados</option>
                             <option value="3">Fallecidos</option>
@@ -140,9 +192,9 @@
                             data-dismiss="modal"
                             id="verDatos"
                         >
-                            Ver informacion
+                            Ver información
                         </button>
-                        <button type="button" style="display: none;" id="verAnalisis" data-toggle="modal" data-target="#exampleModal">
+                        <button class="button__analisis" type="button"  id="verAnalisis" data-toggle="modal" data-target="#exampleModal">
                             Ver Analisis
                         </button>
                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -169,14 +221,14 @@
                             <canvas id="graficaLinea"></canvas>
                         </div>
                         </p>
-                        <div id="analisis">
+                        <!-- <div id="analisis">
 
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Ranking</h5>
-                    <select name="datos" id="datosRanking">
+                    <select class="valores" name="datos" id="datosRanking">
                         <option value="1">Infectados</option>
                         <option value="2">Vacunados</option>
                         <option value="3">Fallecidos</option>
@@ -195,8 +247,8 @@
                     </p>
                     <h2>Informacion por departamentos</h2>
                     <br>
-                    <div class="col-md-8" id="card-departamentos">
-                        <select name="dias" id="regiones" size="1">
+                    <div class="" id="card-departamentos">
+                        <select class="valores" name="dias" id="regiones" size="1">
                             <option value="1">AMAZONAS</option>
                             <option value="2">ANCASH</option>
                             <option value="3">APURIMAC</option>
